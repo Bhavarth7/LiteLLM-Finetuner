@@ -1,10 +1,5 @@
 # Evaluation
 
-We provide scripts to evaluate model responses with GPT-4. We also provide a script to generate new responses using the OpenAI API. These scripts are based on the evaluation scripts of the [FastChat repo](https://github.com/lm-sys/FastChat/tree/main/fastchat/eval).
-
-## Benchmark Queries
-In our paper we use both Vicuna and Open Assistant data. The exact queries for both benchmarks are found at `prompts/vicuna_questions.jsonl` and `prompts/oa_questions.jsonl`. Note that the Vicuna questions are the same set of 80 prompts found in the FastChat repo. For the OpenAssistant benchmark, we select all the user queries in the validation dataset. We also include the previous turns in the dialog for context when applicable.
-
 ## Sample Generations and Model Ratings
 The `generation` folder has outputs from the models studied in our paper. This includes generations for all model sizes (from 7B to 65B) and instruction following datasets.
 
