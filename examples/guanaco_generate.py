@@ -24,7 +24,7 @@ def get_last_checkpoint(checkpoint_dir):
 max_new_tokens = 64
 top_p = 0.9
 temperature=0.7
-user_question = "What is Einstein's theory of relativity?"
+user_question = "What is Einstein's theory of relativity and what is the speed of light?"
 
 # Base model
 model_name_or_path = 'huggyllama/llama-7b'
